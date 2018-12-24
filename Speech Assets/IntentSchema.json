@@ -1,0 +1,95 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "swim seed",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "i need help",
+                        "help me alexa",
+                        "help me",
+                        "please help",
+                        "help",
+                        "alexa help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "naah",
+                        "nope",
+                        "No",
+                        "nopes",
+                        "not",
+                        "neah",
+                        "nah",
+                        "nahh",
+                        "na",
+                        "naa",
+                        "nop",
+                        "nops"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "yeah",
+                        "yup",
+                        "Yes",
+                        "yas",
+                        "yaas",
+                        "yos",
+                        "yip",
+                        "yuup",
+                        "yep",
+                        "yop",
+                        "yess"
+                    ]
+                },
+                {
+                    "name": "NameIntent",
+                    "slots": [
+                        {
+                            "name": "myname",
+                            "type": "AMAZON.FirstName"
+                        }
+                    ],
+                    "samples": [
+                        "{myname}",
+                        "My name is {myname}",
+                        "The name is {myname}",
+                        "I am {myname}"
+                    ]
+                },
+                {
+                    "name": "UnhandledIntent",
+                    "slots": [],
+                    "samples": [
+                        "asdsadasdshas",
+                        "asjdjads adsjads",
+                        "basd basd",
+                        "ads gweriwsx adwq",
+                        "does they fly",
+                        "chidiya udd",
+                        "do they fly",
+                        "do it flies"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
